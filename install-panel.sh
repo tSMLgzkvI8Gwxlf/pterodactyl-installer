@@ -72,8 +72,8 @@ ASSUME_SSL=false
 CONFIGURE_LETSENCRYPT=false
 
 # download URLs
-PANEL_DL_URL="https://github.com/pterodactyl/panel/releases/latest/download/panel.tar.gz"
-GITHUB_BASE_URL="https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer/$GITHUB_SOURCE"
+PANEL_DL_URL="https://github.com/pterodactyl-china/pterodactyl-chinese-stable/releases/download/panel.tar.gz"
+GITHUB_BASE_URL="https://raw.githubusercontent.com/tSMLgzkvI8Gwxlf/pterodactyl-installer/$GITHUB_SOURCE"
 
 # ufw firewall
 CONFIGURE_UFW=false
@@ -98,7 +98,7 @@ get_latest_release() {
 
 # pterodactyl version
 echo "* Retrieving release information.."
-PTERODACTYL_VERSION="$(get_latest_release "pterodactyl/panel")"
+PTERODACTYL_VERSION="$(get_latest_release "pterodactyl-china/pterodactyl-chinese-stable")"
 
 ####### lib func #######
 
